@@ -3,5 +3,5 @@ services:
     name: chaos-agent
     env: node
     plan: free
-    buildCommand: "npm install"
-    startCommand: "node index.js"
+    buildCommand: "yarn"
+    startCommand: "yarn start"
